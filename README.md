@@ -33,7 +33,16 @@ Edit `index.html`, then refresh the browser.
 - `index.html` contains the UI, styling, and interaction logic.
 - `public/` contains static assets used by the page.
 - `.conductor/settings.toml` contains the shared Conductor workspace scripts.
+- `.claude/commands/` contains project slash commands available in every workspace.
 - `.context/` is available in Conductor workspaces for gitignored notes and handoff files between agents.
+
+## Remote control
+
+Run `/remote-control` in any workspace to make the session reachable from another
+device. It pushes your branch and surfaces a pull request link you can follow from
+your phone, then leave steering notes as PR comments. Native Conductor pairing for
+Claude Code's built-in remote control is tracked in
+[conductor-releases#19](https://github.com/meltylabs/conductor-releases/issues/19).
 
 ## Learn More
 
